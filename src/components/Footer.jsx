@@ -1,4 +1,4 @@
-import { Film, Github } from "lucide-react";
+import { Film } from "lucide-react";
 
 function Footer() {
   return (
@@ -20,17 +20,7 @@ function Footer() {
           © 2026 MovieLibrary. All rights reserved.
         </p>
 
-        {/* GitHub icon */}
-        <a
-          href="https://github.com"
-          target="_blank"
-          rel="noreferrer"
-          className="text-gray-400 hover:text-blue-400 transition"
-          aria-label="GitHub"
-        >
-          <Github size={22} />
-        </a>
-
+       
       </div>
 
     </footer>
