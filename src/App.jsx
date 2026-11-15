@@ -5,15 +5,19 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div id="home" className="min-h-screen bg-gray-900">
 
       <Navbar />
 
-      <Hero/>
+      <Hero />
 
-      <MovieList />
+      <div id="movies">
+        <MovieList />
+      </div>
 
-      <Footer/>
+      <div id="about">
+        <Footer />
+      </div>
 
     </div>
   );
