@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import MovieList from "./components/MovieList";
+import About from "./components/About";
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,9 +16,9 @@ function App() {
         <MovieList />
       </div>
 
-      <div id="about">
-        <Footer />
-      </div>
+      <About />
+
+      <Footer />
 
     </div>
   );
