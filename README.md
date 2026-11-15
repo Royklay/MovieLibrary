@@ -4,8 +4,7 @@ A simple and modern movie library application built with React and Tailwind CSS.
 
 ## Live Demo
 
-[View MovieLibrary Live](PASTE_YOUR_LIVE_LINK_HERE)
-
+View MovieLibrary Live https://royklay.github.io/MovieLibrary/
 ## About The Project
 
 MovieLibrary is a beginner-friendly React project developed to practise building reusable components and displaying dynamic data.
