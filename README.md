@@ -1,16 +1,84 @@
-# React + Vite
+# MovieLibrary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern movie library application built with React and Tailwind CSS. MovieLibrary allows users to explore a collection of movies, view their posters, discover movie genres, and check ratings and descriptions.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View MovieLibrary Live](PASTE_YOUR_LIVE_LINK_HERE)
 
-## React Compiler
+## About The Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+MovieLibrary is a beginner-friendly React project developed to practise building reusable components and displaying dynamic data.
 
-## Expanding the ESLint configuration
+The application provides a clean interface where users can browse a small collection of popular movies.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Browse a collection of movies.
+- View movie posters.
+- Explore movie genres and release years.
+- View movie ratings and descriptions.
+- Responsive layout for different screen sizes.
+- Simple navigation between page sections.
+
+## Built With
+
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- Lucide React
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── MovieItem.jsx
+│   ├── MovieList.jsx
+│   ├── About.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+└── index.css
+```
+
+## Getting Started
+
+To run this project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Royklay/MovieLibrary
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd MovieLibrary
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL provided in your terminal.
+
+## Author
+
+Roy Clay
+
+---
+
