@@ -1,9 +1,9 @@
 import MovieItem from "./MovieItem";
 
-import inception from "../assets/inception.jpg";
-import interstellar from "../assets/interstellar.jpg";
-import batman from "../assets/batman.jpg";
-import avatar from "../assets/avatar.jpg";
+import superman from "../assets/superman.jpeg";
+import guardians from "../assets/guardians.jpeg";
+import avengers from "../assets/avengers.jpeg";
+import spiderman from "../assets/spiderman.jpeg";
 
 function MovieList() {
 
@@ -11,39 +11,39 @@ function MovieList() {
   const movies = [
     {
       id: 1,
-      title: "Inception",
+      title: "Superman",
       genre: "Sci-Fi",
       year: 2010,
       rating: 8.8,
-      description: "A thief enters people's dreams to steal secrets.",
-      poster: inception
+      description: "A man from another planet saves the world.",
+      poster: superman
     },
     {
       id: 2,
-      title: "Interstellar",
+      title:"guardian",
       genre: "Adventure",
       year: 2014,
       rating: 8.7,
       description: "A team travels through space searching for a new home.",
-      poster: interstellar
+      poster: guardians
     },
     {
       id: 3,
-      title: "The Dark Knight",
+      title: "Avengers",
       genre: "Action",
       year: 2008,
       rating: 9.0,
-      description: "Batman faces one of his greatest enemies, the Joker.",
-      poster: batman
+      description: "Avengers deafeat thanos.",
+      poster: avengers
     },
     {
       id: 4,
-      title: "Avatar",
+      title: "Spiderman",
       genre: "Fantasy",
       year: 2009,
       rating: 7.9,
-      description: "A soldier discovers a beautiful alien world.",
-      poster: avatar
+      description: "A boy gets beaten by a spider.",
+      poster: spiderman
     }
   ];
 
